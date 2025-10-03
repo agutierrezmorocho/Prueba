@@ -56,12 +56,6 @@ Sample Folder: [Common_Prefix][Sample_ID] (e.g., Run1_S1, Run1_S2)
 
 JSON Report: sample[Sample_ID].[Sample_ID].report.json (e.g., sample1.1.report.json)
 
-2. Execute the Script
-Run the analysis from the terminal:
-
-Bash
-
-python main.py
 📊 Output and Results
 The script automatically creates a Results/ directory to organize all generated outputs.
 
@@ -95,5 +89,3 @@ All error messages (e.g., sample folders missing, JSON files corrupted, data ext
 
 processing_errors.log
 If the program completes successfully, you will see a confirmation message. If a fatal error occurs, check this log file first for detailed traceback information.
-
----
